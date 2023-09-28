@@ -97,6 +97,7 @@ def show_graph(path):
             ax.plot(State.patient['LAnkDors'],'red')
             ax.plot(State.patient['RAnkDors'], 'green')
             ax.plot(State.control['AnkDors'], 'blue')
+    # match case block used instead of if block
 
     State.ui.plot(fig) # this will send the plot to the canvas
     
